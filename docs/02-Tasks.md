@@ -1,6 +1,5 @@
 # Schedule
 1. Write a "Linux Setup" guide on markdown.
-    - [ ] regolith-linux
     - [ ] set caps as ctrl
     - [ ] ctrl + space to change input method
     - [ ] Gnu stow
