@@ -18,3 +18,5 @@
 - Kernel: linux & linux-lts
 - Network configuration: Use NetworkManager
 - Time zone: Japan
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple Markdown Site</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="../marked.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <h1>My Markdown Site</h1>
+        <nav>
+            <a href="?article=article1.md">Article 1</a>
+            <a href="?article=article2.md">Article 2</a>
+        </nav>
+    </header>
+
+    <!-- 左サイドメニュー（TOC） -->
+    <aside id="left-menu">
+        <h2>目次</h2>
+        <div id="article-toc">見出しを読み込み中...</div>
+    </aside>
+
+    <!-- メインコンテンツ -->
+    <main id="content">
+        Loading...
+    </main>
+
+    <!-- 右サイドメニュー（記事一覧） -->
+    <aside id="right-menu">
+        <h2>記事一覧</h2>
+        <ul>
+            <li><a href="?article=article1.md">Article 1</a></li>
+            <li><a href="?article=article2.md">Article 2</a></li>
+        </ul>
+    </aside>
+
+</body>
+
+</html>
