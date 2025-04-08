@@ -11,6 +11,8 @@ window.addEventListener("DOMContentLoaded", () => {
             const html = marked.parse(mdText);
             document.getElementById("content").innerHTML = html;
             // generateToc();
+
+            hljs.highlightAll();
         })
         .catch(err => {
             document.getElementById("content").innerHTML =
