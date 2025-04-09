@@ -15,7 +15,7 @@ LinuxのWayland環境のウィンドウマネージャーであるSway（以下S
 したがって、情報が一元化されたサイト構成は、利用者が各リンク先の内容を前提知識として理解していない場合において、利用者が情報を連続的かつ統合的に収集し、全体像を把握すること阻害する要因になりうると言える。
 そして、とりわけArch Linux に見られるような、取り扱う情報の範囲が広く、各トピックが非常に細かく分割された情報体系においては、特に初学者にとっての学習負荷がいっそう高くなってしまうと考えられる。
 
-次に日本語の情報源が少ないことについてであるが、Googleで、「[arch linux sway 設定](https://www.google.com/search?q=arch+linux+sway+%E8%A8%AD%E5%AE%9A+lang:ja&sca_esv=7eb4e2a0b2f23aa4&ei=hMj1Z5SBNI-i1e8PitvP8A4&start=0&sa=N&sstk=Af40H4VPfnHORqTFLjMOBOI1v6cOk-fFXr1NiaRSGkkltz4QZdGbzUi6dxA7cc1xb24-eTcwFkaIjxq2r652fs7ZJ-PpfK4-VtWeRy7sXK7svPKXVMMbBfg7lbRWOg_zSV5I&ved=2ahUKEwiU07TX4cmMAxUPUfUHHYrtE-44ChDy0wN6BAgHEAQ&biw=2392&bih=1221&dpr=1)」をキーワドとして日本語指定で検索した際、Arch LinuxでSway-wmを設定するという内容の日本語の検索結果は**わずか７件**であった。そして、動画サイトYouTubeにおいては、プレーンな（フレームワークやライブラリを使わない純粋な状態）Sway-wmに関する日本語の動画は見つからなかった。
+次に日本語の情報源が少ないことについてであるが、Googleで、「[arch linux sway 設定](https://www.google.com/search?q=arch+linux+sway+%E8%A8%AD%E5%AE%9A+lang:ja&sca_esv=7eb4e2a0b2f23aa4&ei=hMj1Z5SBNI-i1e8PitvP8A4&start=0&sa=N&sstk=Af40H4VPfnHORqTFLjMOBOI1v6cOk-fFXr1NiaRSGkkltz4QZdGbzUi6dxA7cc1xb24-eTcwFkaIjxq2r652fs7ZJ-PpfK4-VtWeRy7sXK7svPKXVMMbBfg7lbRWOg_zSV5I&ved=2ahUKEwiU07TX4cmMAxUPUfUHHYrtE-44ChDy0wN6BAgHEAQ&biw=2392&bih=1221&dpr=1)」をキーワードとして日本語指定で検索した際、Arch LinuxでSway-wmを設定するという内容の**日本語の検索結果はわずか７件**であった。そして、動画サイトYouTubeにおいては、バニラの（追加の設定やテーマ、アプリを含まない、素の状態の）Sway-wmに関する**日本語の動画はひとつも見つからなかった**。
 
 
 
@@ -29,7 +29,7 @@ LinuxのWayland環境のウィンドウマネージャーであるSway（以下S
 3. キーボードショートカットで、ターミナルで複数のセッション（？）を管理できたり（tmux）、ウィンドウを縦横無尽に行き来できるシステムが理想的。
 
 ## コンセプト
-- 英語が読めないと、自分でデスクトップ環境を管理・メンテナンスしていくのはほぼ不可能なので、ある程度英語がわかる人を対象にしている。
+- 英語が全く読めない場合、自分でデスクトップ環境を管理・メンテナンスしていくのはほぼ不可能なので、ある程度英語がわかる人を対象にしている。
 - デスクトップ環境はプログラミング用に最適化されている。
 
 ## 制作ツール

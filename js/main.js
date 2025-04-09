@@ -10,7 +10,8 @@ window.addEventListener("DOMContentLoaded", () => {
         .then(mdText => {
             const html = marked.parse(mdText);
             document.getElementById("content").innerHTML = html;
-            // generateToc();
+
+            generateToc();
 
             hljs.highlightAll();
         })
@@ -18,25 +19,28 @@ window.addEventListener("DOMContentLoaded", () => {
             document.getElementById("content").innerHTML =
                 `<p style="color: red;">読み込みエラー: ${err.message}</p>`;
         });
+
+    const panel = document.getElementById("toc-panel");
+    panel.classList.toggle("open");
 });
 
 /**
  * 記事本文の見出し(h1～h3)からTOCを生成
  */
-// function generateToc() {
-//     const tocContainer = document.getElementById("article-toc");
-//     tocContainer.innerHTML = "";
-//
-//     const headings = document.querySelectorAll("#content h1, #content h2, #content h3");
-//     headings.forEach(heading => {
-//         if (!heading.id) {
-//             heading.id = heading.textContent.replace(/\s+/g, "-").toLowerCase();
-//         }
-//         const link = document.createElement("a");
-//         link.href = `#${heading.id}`;
-//         link.textContent = heading.textContent;
-//         link.style.marginLeft = `${(parseInt(heading.tagName[1]) - 1) * 10}px`;
-//         tocContainer.appendChild(link);
-//     });
-// }
+function generateToc() {
+    const tocContainer = document.getElementById("article-toc");
+    tocContainer.innerHTML = "";
+
+    const headings = document.querySelectorAll("#content h1, #content h2, #content h3");
+    headings.forEach(heading => {
+        if (!heading.id) {
+            heading.id = heading.textContent.replace(/\s+/g, "-").toLowerCase();
+        }
+        const link = document.createElement("a");
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent;
+        link.style.marginLeft = `${(parseInt(heading.tagName[1]) - 1) * 10}px`;
+        tocContainer.appendChild(link);
+    });
+}
 
