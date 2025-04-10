@@ -4,9 +4,9 @@ Arch LinuxとSway-wmを使ったデスクトップ環境構築方法と、コー
 
 ## 背景と目的
 本プロジェクトの目的は、Linuxのデスクトップ環境を自分でカスタマイズし、最適化するためのハードルを下げることである。
-そのために、今回Linuxのデスクトップ環境及びツールに興味がある人や、実際に使ってみたい人、 自分でカスタマイズしたい人が参照することができる、その基本的な使い方や仕組みを日本語で網羅的に解説した情報サイトを制作する。（現在は一貫して知識を得られるメディアがなく、かつ日本語の情報源が少ないことから、Linuxを使うハードルが高い。)
+そのために、今回Linuxのデスクトップ環境及びツールに興味がある人や、実際に使ってみたい人、 自分でカスタマイズしたい人が参照することができる、その基本的な使い方や仕組みを日本語で網羅的に解説した情報サイトを制作する。
 
-背景として、私が現在利用しているLinuxのWayland環境向けタイリングウィンドウマネージャー「Sway（以下、Sway-wm）」は、初心者がデスクトップ環境を構築するうえで、学習負荷が非常に高いという点がある。
+背景としては、私が現在利用しているLinuxのWayland環境向けタイリングウィンドウマネージャー「Sway（以下、Sway-wm）」は、初心者がデスクトップ環境を構築するうえで、学習負荷が非常に高いという点がある。
 原因としては、情報共有サイトの情報の断片化と、日本語の情報源が少ないことが挙げられる。
 
 まず、情報の断片化についてであるが、[Arch Linux の公式 Webドキュメントサイト](https://wiki.archlinux.jp/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8) (以下ArchWiki) をはじめとする Linux に関する情報共有サイトでは、DRY（Don't Repeat Yourself）の原則に基づき、情報の保守性や一貫性を高めるために、同じ内容を複数のページに繰り返し記述せず、情報源となるページへのリンクによって一元的に管理されているのが一般的である。（[ArchWiki のヘルプ](https://wiki.archlinux.jp/index.php/%E3%83%98%E3%83%AB%E3%83%97:%E8%AA%AD%E3%81%BF%E6%96%B9)参照）
@@ -17,6 +17,7 @@ Arch LinuxとSway-wmを使ったデスクトップ環境構築方法と、コー
 
 次に日本語の情報源が少ないことについてであるが、Googleで、「[arch linux sway 設定](https://www.google.com/search?q=arch+linux+sway+%E8%A8%AD%E5%AE%9A+lang:ja&sca_esv=7eb4e2a0b2f23aa4&ei=hMj1Z5SBNI-i1e8PitvP8A4&start=0&sa=N&sstk=Af40H4VPfnHORqTFLjMOBOI1v6cOk-fFXr1NiaRSGkkltz4QZdGbzUi6dxA7cc1xb24-eTcwFkaIjxq2r652fs7ZJ-PpfK4-VtWeRy7sXK7svPKXVMMbBfg7lbRWOg_zSV5I&ved=2ahUKEwiU07TX4cmMAxUPUfUHHYrtE-44ChDy0wN6BAgHEAQ&biw=2392&bih=1221&dpr=1)」をキーワードとして日本語指定で検索した際、Arch LinuxでSway-wmを設定するという内容の**日本語の検索結果はわずか７件**であった。そして、動画サイトYouTubeにおいては、バニラの（追加の設定やテーマ、アプリを含まない、素の状態の）Sway-wmに関する**日本語の動画はひとつも見つからなかった**。
 
+このように、一貫して知識を得られるメディアがなく、かつ日本語の情報源が少ない現状を踏まえ、本プロジェクトを始めることにした。
 
 
 - Arch Linuxのデスクトップ環境構築について日本語で解説、紹介されているサイトが非常に少ない。
