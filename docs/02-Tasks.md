@@ -1,11 +1,26 @@
-# Schedule
-1. Write a "Linux Setup" guide on markdown.
-    - [ ] set caps as ctrl
-    - [ ] ctrl + space to change input method
-    - [ ] Gnu stow
-    - [ ] wezterm
-    - [ ] neovim
-    - [ ] starship
-2. Implement a md-html converter on a mock-up website.
-3. Implement tagging and incremental text searches (via fzf) for both tags and content.
-4. Create a web application that integrates all of the above features.
+# スケジュール
+1. 中間発表1
+    - サイトマップ・ワイヤーフレーム
+    - マークダウン変換ツールの簡易的な実装。
+    - テスト記事を使って検証
+2. 最終発表1
+    - コード部分ハイライトツールも実装し、マークダウン変換ツールを完成させる（フォント・文字サイズ・行間幅など）
+    - 記事の一部を完成させる
+3. 中間発表2
+    - 記事をすべて完成させる
+4. 最終発表2
+    - サイトをブラッシュアップし、整える
+
+- fzfも余力があれば
+
+
+# 記事
+1. インストール
+2. Swayの設定１（タイリングウィンドウマネージャーについての解説）
+
+- [ ] set caps as ctrl
+- [ ] ctrl + space to change input method
+- [ ] Gnu stow
+- [ ] wezterm
+- [ ] neovim
+- [ ] starship
