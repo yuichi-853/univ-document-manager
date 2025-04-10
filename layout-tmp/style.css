@@ -28,40 +28,33 @@ header nav a {
 #content {
     flex: 1;
     padding: 2rem;
-    /* margin: 0 15rem 0 15rem; */
+    margin: 1rem 3rem 0 3rem;
     padding: 0 8em;
+    border: 1px solid #ddd;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* サイドパネル */
 #toc-panel {
-    left: 0;
-    top: 0;
-    width: 700px;
+    /* left: 0; */
+    /* top: 0; */
+    width: 200px;
     height: 100%;
-    background-color: #f8f9fa;
-    overflow-y: auto;
-    position: sticky;
-    border-right: 1px solid #ddd;
+    background-color: #ffffff;
+    /* overflow-y: auto; */
+    /* position: sticky; */
+    border: 1px solid #ddd;
     padding: 10px;
+    margin: 10px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    transform: translateX(-100%);
+    /* transition: transform 0.3s ease; */
+    /* transform: translateX(-100%); */
     /* 最初は隠す */
     z-index: 1000;
 }
 
 /* トグルで表示状態 */
-#toc-panel.open {
-    transform: translateX(0);
-}
-
-/* トグルボタン */
-#toc-toggle {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1100;
-}
+#toc-panel {}
 
 #article-toc a {
     display: block;
