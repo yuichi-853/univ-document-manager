@@ -15,14 +15,117 @@
 </head>
 
 <body>
-    <header>
-        <h1>My Markdown Site</h1>
-        <nav>
-            <a href="?article=article1.md">Article 1</a>
-            <a href="?article=article2.md">Article 2</a>
-            <a href="?article=installation.md">Installation</a>
-        </nav>
-    </header>
+    <!-- <header> -->
+    <!--     <h1>My Markdown Site</h1> -->
+    <!--     <nav> -->
+    <!--         <a href="?article=article1.md">Article 1</a> -->
+    <!--         <a href="?article=article2.md">Article 2</a> -->
+    <!--         <a href="?article=installation.md">Installation</a> -->
+    <!--     </nav> -->
+    <!-- </header> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- create col the size 3 to put the contents at center -->
+            <div class="col-md-3"></div>
+
+            <!-- col-md-6 sizes the col 12 to 6 (half of the size) -->
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col mt-5">
+                            <h1>レンタル予約をする</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 注意事項 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col mt-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2 class="mb-0">注意事項</h2>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="mb-0 pe-2">
+                                        <li>予約登録後の、本の貸し借りに関する連絡はメールなどを用いて個別に行ってください。</li>
+                                        <li>予約登録後、レンタルのキャンセルをする場合は○○、レンタル完了は、賃貸人のレンタル完了登録により行われます。</li>
+                                        <li>貸し借りにより生じた当事者間のトラブルに対する責任は一切負いません。</li>
+                                        <li>延滞することの無いように十分注意をしてください。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- レンタル予約フォーム -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col mt-4">
+                            <div class="p-4 mb-4 rounded" style="border: 2px solid rgb(255, 194, 81);">
+                                <h3>レンタル予約フォーム</h3>
+                                <form method="get" novalidate class="mt-4">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">お名前</label>
+                                        <input type="text" class="form-control" id="name" class="form-control" required
+                                            placeholder="お名前を入力してください">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">メールアドレス</label>
+                                        <input type="email" class="form-control" id="email" class="form-control"
+                                            required placeholder="メールアドレスを入力してください">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleformcontroltextarea1"
+                                            class="form-label">希望する受け取り日時・場所</label>
+                                        <textarea class="form-control" id="exampleformcontroltextarea1" rows="3"
+                                            required></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleformcontroltextarea1" class="form-label">希望する貸出期間</label>
+                                        <textarea class="form-control" id="exampleformcontroltextarea1" rows="3"
+                                            required></textarea>
+                                    </div>
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <button type="submit" class="btn btn-primary me-2">送信</button>
+                                        <button type="button" class="btn btn-secondary">キャンセル</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="layout">
         <div id="toc-panel">
