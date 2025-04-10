@@ -17,7 +17,7 @@ Arch LinuxとSway-wmを使ったデスクトップ環境の構築方法と、コ
 次に日本語の情報源が少ないことについてであるが、Googleで、「[arch linux sway 設定](https://www.google.com/search?q=arch+linux+sway+%E8%A8%AD%E5%AE%9A+lang:ja&sca_esv=7eb4e2a0b2f23aa4&ei=hMj1Z5SBNI-i1e8PitvP8A4&start=0&sa=N&sstk=Af40H4VPfnHORqTFLjMOBOI1v6cOk-fFXr1NiaRSGkkltz4QZdGbzUi6dxA7cc1xb24-eTcwFkaIjxq2r652fs7ZJ-PpfK4-VtWeRy7sXK7svPKXVMMbBfg7lbRWOg_zSV5I&ved=2ahUKEwiU07TX4cmMAxUPUfUHHYrtE-44ChDy0wN6BAgHEAQ&biw=2392&bih=1221&dpr=1)」をキーワードとして日本語指定で検索した際、Arch LinuxでSway-wmを設定するという内容の**日本語の検索結果はわずか７件**であった。そして、動画サイトYouTubeにおいては、バニラの（追加の設定やテーマ、アプリを含まない、素の状態の）Sway-wmに関する**日本語の動画はひとつも見つからなかった**。
 
 <!-- このように、情報を体系的に得られるメディアが存在せず、日本語の情報も乏しいという、日本のユーザーにとって不親切な現状を踏まえ、本プロジェクトを始めることにした。 -->
-このような現状を踏まえ、今回Linuxのタイリングウィンドウマネージャーを使ったデスクトップ環境構築及びLinuxのコマンドラインツールに関心を持つ日本のユーザーが参照することができる、その基本的な使い方や仕組みを日本語で体系的に解説した情報サイトを制作する。
+このような現状を踏まえ、今回、Sway-wmを使ったデスクトップ環境構築、及びLinuxのコマンドラインツールに関心を持つ日本のユーザーが参照することができる、その基本的な使い方や仕組みを日本語で体系的に解説した情報サイトを制作する。
 
 
 - Arch Linuxのデスクトップ環境構築について日本語で解説、紹介されているサイトが非常に少ない。
